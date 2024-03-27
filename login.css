@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    right: 0;
+    flex-wrap: wrap;
+  
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  }
+  .left img {
+    width: 60px;
+    margin-right: 100px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 94%;
+    margin: 0 auto;
+  }
+  .left,
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+  }
+  .left ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: 700;
+    font-style: normal;
+    color: #282c3f;
+    font-size: 14px; 
+    text-transform: uppercase;
+    font-family: Assistant;
+  }
+  .left a {
+    text-decoration: none;
+    color: #282c3f;;
+  }
+  .search-logo {
+    background-color: blue;
+    width: 650px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #f5f5f6;
+    margin-left: 40px;
+  }
+  .search-logo input {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    width: 90%;
+    font-size: 14px;
+  }
+  .search-logo i {
+    font-size: 16px;
+    color: #696e79;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #new span {
+    position: relative;
+    bottom: 10px;
+    color: rgb(237, 131, 148);
+  
+    font-size: 11px;
+  }
+  .right div {
+    margin: 0 10px;
+    text-align: center;
+  }
+  .right div p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+  }
+  .left div i {
+    font-size: 13px;
+    color: #000;
+  }
+  .right a {
+    text-decoration: none;
+    color: #000;
+  }
+  #f :hover {
+    border-bottom: 4px solid rgb(243, 79, 79);
+    padding-bottom: 15px;
+    border-radius: 3px;
+  }
+  #c :hover {
+    border-bottom: 4px solid rgb(214, 16, 49);
+    padding-bottom: 15px;
+    border-radius: 3px;
+  }
+  #t :hover {
+    border-bottom: 4px solid rgb(181, 61, 17);
+    padding-bottom: 15px;
+    border-radius: 3px;
+  }
+  #fo :hover {
+    border-bottom: 4px solid rgb(142, 142, 30);
+    padding-bottom: 15px;
+    border-radius: 3px;
+  }
+  #fi :hover {
+    border-bottom: 4px solid aqua;
+    padding-bottom: 15px;
+    border-radius: 3px;
+  }
+  #new :hover {
+    border-bottom: 4px solid rgb(243, 79, 79);
+    padding-bottom: 15px;
+    border-radius: 3px;
+  }
+  .login-page{
+    width: 400px;
+    height: 440px;
+   /* border: 1px solid black; */
+    margin-top: 10px;
+  
+    
+
+  }
+  .main--div{
+    display: flex;
+    justify-content: center;
+
+  }
+  .img {
+    width:100% ;
+    height:160px ;
+    box-sizing: border-box;
+   
+  }
+  .img img {
+    width: 100% ;
+    height: 160px;
+  }
+  .main-login{
+    width:400px;
+    height: 280px;
+    
+    padding: 36px 36px
+    0px 36px;
+  }
+  .header{
+    width: 328px;
+    height: 28px ;
+    margin-bottom: 24px;
+  }
+  .header p {
+    color:#424553 ;
+    font-size:20px ;
+    font-weight: 700;
+
+    
+  }
+  .header span {
+    color: #535766;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .login-group{
+    width: 328px;
+    height: 45px;
+    border: 1px solid #d4d5d9;
+    line-height: 16px;
+    margin-bottom: 24px; 
+ 
+    color: #282c3f;
+  }
+  .login-group input {
+    width: 280px;
+    height: 45px;
+   
+    border-top:1px  transparent;
+    border-right: 1px transparent;
+    border-bottom: 1px transparent;
+    border-left: none;
+    justify-content: center;
+    align-items: center;
+  }
+    .login-group span {
+    font-size: 14px;
+    color:#535766 ;
+    font-weight: 300;
+    padding-left: 5px;
+  }
+  .link{
+    margin-bottom: 21px
+  }
+  .link p {
+    text-transform:capitalize;
+    font-size:13px ;
+    color: #282c3fcc;
+  }
+ a{
+  text-decoration: none;
+  color: #ff3c6f;
+
+ }
+ .button-continue  button {
+ width: 100%;
+ height: 35px;
+ font-size: 14PX;
+ background-color:#ff3c6f ;
+ border: none;
+ font-weight: 700;
+ color: #d4d5d9;
+ font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+ }
+ .help{
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+ #loop{
+  font-size: 13px;
+  color: #282c3fcc;
+ }
+
+
+  
+
